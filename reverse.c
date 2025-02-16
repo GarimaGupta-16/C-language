@@ -6,7 +6,7 @@ int main(){
   int lastDigit;
   int newNum=0;
 
-  for(int i =0;i<n;i++){
+  while(n>0){
     lastDigit= n%10;
     newNum= newNum*10+lastDigit;
     n= n/10;

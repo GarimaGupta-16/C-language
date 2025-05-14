@@ -1,11 +1,11 @@
 
 #include <stdio.h>
-void sameNumTria(int );
+void rightTria(int );
 int main(){
   int m;
   printf("Enter the number of rows: ");
   scanf("%d",&m);
- sameNumTria(m);
+ rightTria(m);
   
 }
    // RIGHT ANGLED TRIANGLE
@@ -58,4 +58,22 @@ void sameNumTria(int m ){
       count++;
       printf("\n");
     }
+  }
+
+
+  //Right-Aligned Triangle
+  void rightTria(int m){
+    for(int i=1;i<=m;i++){
+      for(int j=1;j<=m-i;j++){
+        printf(" ");
+      }
+    for(int j=1;j<=i;j++){
+      printf("*");
+    }
+    printf("\n");
+
+      
+    }
+    
+    
   }

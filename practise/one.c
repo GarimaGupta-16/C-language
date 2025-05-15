@@ -77,3 +77,6 @@ void sameNumTria(int m ){
     
     
   }
+
+
+  //Floyd's Triangle

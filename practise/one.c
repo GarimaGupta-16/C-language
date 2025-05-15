@@ -1,11 +1,11 @@
 
 #include <stdio.h>
-void rightTria(int );
+void floydTria(int );
 int main(){
   int m;
   printf("Enter the number of rows: ");
   scanf("%d",&m);
- rightTria(m);
+floydTria(m);
   
 }
    // RIGHT ANGLED TRIANGLE
@@ -80,3 +80,13 @@ void sameNumTria(int m ){
 
 
   //Floyd's Triangle
+  void floydTria(int m){
+    int count =1;
+    for(int i=1;i<=m;i++){
+      for(int j=1;j<=i;j++){
+        printf("%d ",count);
+        count++;
+      }
+      printf("\n");
+    }
+  }

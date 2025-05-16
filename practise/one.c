@@ -1,11 +1,11 @@
 
 #include <stdio.h>
-void floydTria(int );
+void alphaTria(int );
 int main(){
   int m;
   printf("Enter the number of rows: ");
   scanf("%d",&m);
-floydTria(m);
+alphaTria(m);
   
 }
    // RIGHT ANGLED TRIANGLE
@@ -86,6 +86,19 @@ void sameNumTria(int m ){
       for(int j=1;j<=i;j++){
         printf("%d ",count);
         count++;
+      }
+      printf("\n");
+    }
+  }
+
+
+  //Alphabet Triangle
+  void alphaTria(int m ){
+    char Alpha='A';
+    for(int i=1;i<=m;i++){
+      for(int j=1;j<=i;j++){
+        printf("%c",Alpha);
+        Alpha++;
       }
       printf("\n");
     }

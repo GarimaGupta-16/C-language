@@ -1,13 +1,13 @@
 
 #include <stdio.h>
-void alphaTria(int );
-int main(){
-  int m;
-  printf("Enter the number of rows: ");
-  scanf("%d",&m);
-alphaTria(m);
+// void alphaTria(int );
+// int main(){
+//   int m;
+//   printf("Enter the number of rows: ");
+//   scanf("%d",&m);
+// alphaTria(m);
   
-}
+// }
    // RIGHT ANGLED TRIANGLE
  void rightAngledTria(int m ){
   for(int i=1;i<=m;i++){
@@ -103,3 +103,6 @@ void sameNumTria(int m ){
       printf("\n");
     }
   }
+
+
+  
